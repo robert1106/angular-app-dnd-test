@@ -1,0 +1,8 @@
+<div class="collapsible-container">
+  <app-collapsible *ngFor="let property of uniqProperties"
+                   [property]="property"
+                   [deep]="deep"
+                   [data]="data"
+                   [order]="order">
+  </app-collapsible>
+</div>

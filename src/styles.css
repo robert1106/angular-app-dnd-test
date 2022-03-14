@@ -1,1 +1,35 @@
-/* You can add global styles to this file, and also import other style files */
+.sortable-container {
+  width: 100% !important;
+  height: 50px !important;
+  border: none !important;
+  border-radius: 0;
+}
+
+.sortable-header {
+  display: none;
+}
+
+.sortable-list {
+  list-style-type: none;
+  margin: 0 0 20px !important;
+  padding: 0;
+}
+
+.sortable-list .active{
+  background: #006098 !important;
+}
+
+.sortable-list li {
+  font-family: sans-serif;
+  display: inline-block;
+  background: #006098;
+  color: #fff;
+  padding: 10px 15px;
+  margin: 0 2px;
+  border-radius: 10px;
+  cursor: pointer;
+}
+
+.drop-zone {
+  display: none;
+}

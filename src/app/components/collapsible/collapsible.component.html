@@ -1,0 +1,11 @@
+<div class="collapsible {{'level-'+deep}}">
+  <header class="collapsible-header" (click)="toggleOpen()">{{property}}</header>
+  <div class="collapsible-body" *ngIf="toggle">
+    <app-render-items *ngIf="deep === (order.length - 1)" [data]="data"></app-render-items>
+    <app-render-next-level *ngIf="deep !== (order.length - 1)"
+                           [data]="data"
+                           [property]="property"
+                           [deep]="deep"
+                           [order]="order"></app-render-next-level>
+  </div>
+</div>

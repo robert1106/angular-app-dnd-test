@@ -1,27 +1,24 @@
-# AngularAppDndTest
+# Creating a recursively nested accordion component (test work).
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 13.2.6.
+The project is made on the Angular framework.
+At the top there are buttons that change with a drag drop, and depending on their position, the nesting order of the accordions changes. This [link](https://gist.githubusercontent.com/CJRoman/53790acd766cd2820da6bbf884235cec/raw/5e392796d26c956c2585c1a29a1d4ead1487fb63/items.json) loads data, in which there are 1000 elements with five attributes, which are actually expressed by these buttons, and accordions group these elements by the required attribute, depending on the position of the buttons.
 
-## Development server
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
+Screenshot of the result:
 
-## Code scaffolding
+!
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
 
-## Build
-
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory.
-
-## Running unit tests
-
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
-
-## Running end-to-end tests
-
-Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To use this command, you need to first add a package that implements end-to-end testing capabilities.
-
-## Further help
-
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
+## Installation & Run
+#### Download this project:
+```bash
+git clone https://github.com/robert1106/angular-app-dnd-test.git
+```
+#### Installing packages:
+```bash
+npm instal
+```
+#### Start project:
+```bash
+npm start
+```
